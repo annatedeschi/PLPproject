@@ -1,0 +1,53 @@
+my $int= 109;
+#this is how you call an interger
+my $string = "Hello, World!";
+# this is how you call a string
+
+my $float = 3.14;
+#this is how you calling a floating varible with a decimal
+
+my $boolean = 6;
+#this is how you call a boolean
+
+my @array = (1, 2, 4, 8, 16);
+#this is how you create an array in perl
+
+my %hash = (
+    'ans1' => 'value1',
+    'ans2' => 'value2',
+    'ans3' => 'value3'
+);
+#this is how you call a dictornary in perl which is called a hash
+
+
+
+Keywords :
+
+Yes, Perl has keywords and reserved words. The exact number may vary depending on the version of Perl, but there are a alot of similar to other langeauges like python. 
+An example of this is if orelse
+
+Naming Variable:
+When naming variables they have to either start with a letter or underscore
+
+Naming conventions:
+Perl follows some naming conventions, but they are not enforced by the compiler.An example of this is the lowercases and underscore
+to name variables
+
+Type System:
+Perl is dynamically typed, meaning you do not need to declare what type the variable is explicitly.
+However it's also weakly typed aswell
+Mutability:
+In Perl, most variables are mutable. You can change the value stored in a variable after it has been created, But not a string making it unmutable
+
+Operators:
+Perl provides the basic operates (+, -, *, /), linking strings together using periods(.), comparison operators (==, !=, <, >, ), and logical operators to name a few
+
+Mixed Type Operations:
+Perl does allows mixed-type operations. For an example it will combine a string and a interger but perl will turn t
+he interger into a number so it can form a new string
+
+Binding:
+In Perl variable names are bound to their values when the program is run
+
+Type Binding:
+Perl is implicitly typed, which means you do not need to specify variable types like you would with java.This job is done by the compiler and they deterimine its types
