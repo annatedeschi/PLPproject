@@ -6,7 +6,7 @@ my $string = "Hello, World!";
 my $float = 3.14;
 #this is how you calling a floating varible with a decimal
 
-my $boolean = 6;
+my $boolean = 0;
 #this is how you call a boolean
 
 my @array = (1, 2, 4, 8, 16);
