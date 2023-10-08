@@ -1,0 +1,20 @@
+
+# this is creating an array of number bewteen 1-10  
+@a = (0..10);  
+  
+
+print("Values of an array before function call: = @a\n"); 
+  
+# naming the sub routine 
+sample(@a); 
+  
+
+print("Values of an array after function call: = @a"); 
+  
+
+sub sample 
+{  
+    $_[0] = "A"; 
+  
+    $_[1] = "B"; 
+} 
