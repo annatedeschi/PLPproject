@@ -1,0 +1,12 @@
+
+use strict;
+use warnings;
+# we use strict and warning to prevent error message
+sub numtimesnum {
+    my ($num) = @_;
+    return $num * $num;
+}
+my $result = square(5);
+
+# Print the result
+print "The square of 5 is: $result\n";
