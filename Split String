@@ -1,0 +1,9 @@
+sub splitstrings {
+    my ($input) = @_;
+    my ($part1, $part2) = split / /, $input, 2;
+    return ($part1, $part2);
+}
+
+my ($string1, $string2) = splitstring("Hello World");
+print "$string1\n";
+print "$string2\n";
