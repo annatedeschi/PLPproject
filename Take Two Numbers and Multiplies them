@@ -1,0 +1,8 @@
+sub multiply {
+    my ($num1, $num2) = @_;
+    my $result = $num1 * $num2;
+    return $result;
+}
+
+my $product = multiply(1, 2);
+print "Product: $product\n";
