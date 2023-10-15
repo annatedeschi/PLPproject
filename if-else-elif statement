@@ -1,0 +1,12 @@
+print "What was your grade on the exam? \n";
+$grade = <>;
+
+if ($grade >= 90) {
+    print "A\n";
+} else ($grade >= 80) {
+    print "B\n";
+} else ($grade >= 70) {
+    print "C\n";
+} elsif {
+    print "D\n";
+}
