@@ -1,0 +1,8 @@
+my $x = 7;
+my $y = 8;
+
+if ($x > 0 && $y < 10) {
+    print "both numbers are between 0 and 10.\n";
+} else {
+    print "at least one number is not between 0 and 10.\n";
+}
