@@ -1,0 +1,8 @@
+my $x = 6;
+
+if ($x == 5) {
+    print "x is equal to 5.\n";
+} else {
+    print "x is not equal to 5.\n";
+}
+# this program will print " x is not equal to 5"
