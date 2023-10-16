@@ -1,0 +1,11 @@
+1) In Perl, boolean values are represented as 1 for true and 0 for false.
+2) Perl supports if/else,elseif, unless, and given-when
+
+3)Perl uses curly brackets to delimit code blocks under each condition in selection control statements
+
+4) Perl does support short-circuit evaluation. In the example provided earlier, if you have a condition like if ($a != 0 && $b / $a > 2),
+the second part of the condition ($b / $a > 2) will not be evaluated if the first part ($a != 0)
+
+5)Perl doesn't have a "dangling else" problem, this is because it uses a straightforward if/else structure.
+
+6)Perl has given-when (or switch-case) statements, but it does not require break to exit a case like it would in other languages like java
