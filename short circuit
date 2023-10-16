@@ -1,0 +1,8 @@
+my $a = 9;
+my $b = 1;
+
+if ($b != 0 && $a / $b > 2) {
+    print "a is more than twice b.\n";
+} else {
+    print "The condition is not met because of short-circuiting.\n";
+}
