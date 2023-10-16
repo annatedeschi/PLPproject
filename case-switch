@@ -1,0 +1,13 @@
+$day = "Friday";
+
+given ($day) {
+    when ("Monday") {
+        say "It's the start of the week!";
+    }
+    when ("Friday") {
+        say "It's almost the weekend!";
+    }
+    default {
+        say "It's an average day.";
+    }
+}
