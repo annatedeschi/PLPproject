@@ -34,7 +34,7 @@ he interger into a number so it can form a new string
 Binding:
 In Perl variable names are bound to their values when the program is run
 ### Type Binding
-Perl is implicitly typed, which means you do not need to specify variable types like you would with java.This job is done by the compiler and they deterimine its types
+Perl is implicitly typed, which means you do not need to specify variable types like you would with Java. This job is done by the compiler and they determine its types
 ```
 my $int= 109;
 #this is how you call an interger
@@ -56,4 +56,18 @@ my %hash = (
     'ans3' => 'value3'
 );
 #this is how you call a dictionary in Perl which is called a hash
+```
+## Calling a Functions
+```
+use strict;
+use warnings;
+# we use strict and warning to prevent error message
+sub numtimesnum {
+    my ($num) = @_;
+    return $num * $num;
+}
+my $result = square(5);
+
+# Print the result
+print "The square of 5 is: $result\n";
 ```
