@@ -71,3 +71,44 @@ my $result = square(5);
 # Print the result
 print "The square of 5 is: $result\n";
 ```
+
+## Else-If statements
+
+### One Condition Else-If Statement
+```
+my $x = 6;
+
+if ($x == 5) {
+    print "x is equal to 5.\n";
+} else {
+    print "x is not equal to 5.\n";
+}
+# this program will print " x is not equal to 5"
+```
+
+### Multi Condition Else-If Condition
+```
+my $x = 7;
+my $y = 8;
+
+if ($x > 0 && $y < 10) {
+    print "both numbers are between 0 and 10.\n";
+} else {
+    print "at least one number is not between 0 and 10.\n";
+}
+```
+### If-Else-Elif Statment
+```
+print "What was your grade on the exam? \n";
+$grade = <>;
+
+if ($grade >= 90) {
+    print "A\n";
+} else ($grade >= 80) {
+    print "B\n";
+} else ($grade >= 70) {
+    print "C\n";
+} elsif {
+    print "D\n";
+}
+```
