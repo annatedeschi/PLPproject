@@ -130,7 +130,7 @@ sub sample
     $_[1] = "B"; 
 }
 ```
-## Else-If statements
+## Conditional Statements
 
 ### One Condition Else-If Statement
 ```
@@ -170,3 +170,21 @@ if ($grade >= 90) {
     print "D\n";
 }
 ```
+### Case Switch statements
+
+```
+$day = "Friday";
+
+given ($day) {
+    when ("Monday") {
+        say "It's the start of the week!";
+    }
+    when ("Friday") {
+        say "It's almost the weekend!";
+    }
+    default {
+        say "It's an average day.";
+    }
+}
+```
+## PLP Assignment 5
