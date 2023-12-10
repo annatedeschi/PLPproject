@@ -188,3 +188,43 @@ given ($day) {
 }
 ```
 ## PLP Assignment 5
+```
+
+sub new {
+    my ($class, %args) = @_;
+    return bless { name => $args{name}, age => $args{age} }, $class;
+}
+
+sub get_name { $_[0]->{name} }
+sub get_age  { $_[0]->{age} }
+sub set_name { $_[0]->{name} = $_[1] }
+sub set_age  { $_[0]->{age}  = $_[1] }
+
+# Student.pm
+package Student;
+use base 'Person';
+
+sub new {
+    my ($class, %args) = @_;
+    return bless { %{$class->SUPER::new(%args)}, student_id => $args{student_id} }, $class;
+}
+
+sub get_student_id { $_[0]->{student_id} }
+sub set_student_id { $_[0]->{student_id} = $_[1] }
+
+# Testing the classes
+my $person = Person->new(name => 'John Doe', age => 25);
+print "Person: Name - $person->{name}, Age - $person->{age}\n";
+
+$person->set_name('Jane Doe');
+$person->set_age(30);
+print "Updated Person: Name - $person->{name}, Age - $person->{age}\n";
+
+my $student = Student->new(name => 'Alice Smith', age => 20, student_id => '12345');
+print "Student: Name - $student->{name}, Age - $student->{age}, Student ID - $student->{student_id}\n";
+
+$student->set_name('Bob Johnson');
+$student->set_age(22);
+$student->set_student_id('67890');
+print "Updated Student: Name - $student->{name}, Age - $student->{age}, Student ID - $student->{student_id}\n";
+ ```
