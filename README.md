@@ -188,6 +188,24 @@ given ($day) {
 }
 ```
 ## PLP Assignment 5
+Person Class
+Attributes:
+name: Represents the person's name.
+age: Represents the person's age.
+Methods:
+new: Constructor creating a new instance with a given name and age.
+get_name: Returns the person's name.
+get_age: Returns the person's age.
+set_name: Sets the person's name.
+set_age: Sets the person's age.
+Student Class
+Inherits from Person.
+Additional Attribute:
+student_id: Represents the student's ID.
+Additional Methods:
+new: Constructor extending the Person constructor with student ID.
+get_student_id: Returns the student's ID.
+set_student_id: Sets the student's ID.
 ```
 
 sub new {
