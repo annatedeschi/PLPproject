@@ -1,0 +1,20 @@
+Objects or Similar Structures:
+
+Yes, Perl supports objects, but it's not as strict as in some languages.
+
+Naming Conventions:
+No strict conventions, but using $self for instance variables is common.
+
+Standard Methods:
+No strict standards like Java or Python, but methods like bless and DESTROY are used.
+
+Inheritance:
+Yes, Perl supports inheritance. Multiple inheritance is possible but a bit complex.
+
+Overloading Method Names:
+Possible, but not as enforced as in some languages. Derived class methods override base class methods.
+
+Other Info:
+Perl's OOP is flexible. Modules like Moose and Moo add advanced features.
+Perl's approach is less strict, giving more freedom but requiring discipline.
+
